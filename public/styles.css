@@ -1,0 +1,91 @@
+body{
+    background-color: #293462;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h2, h4{
+    padding: 0;
+    color: white;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #00F5FF;
+    opacity: 0.8;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+    3px 3px 0.4em lightskyblue,
+    -3px -3px 0.4em lightskyblue;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari desteği */
+}
+
+.icon {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.unsuccessful {
+   
+    background: #E90064;
+}
+
+
+button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: #A799B7;
+}
+
+button:hover {
+    color: white;
+    border: none;
+   
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow:
+    5px 5px 0.4em gray;
+    ;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+
